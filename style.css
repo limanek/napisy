@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+#container {
+    width: 100%;
+}
+
+#container, .task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+}
+
+#container {
+    justify-content: center;
+}
+
+.task {
+    border: 2px solid blue;
+    width: 80vw;
+    height: 500px;
+    justify-content: flex-start;
+}
+
+/* ZADANIE 7 */
+#wynik {
+    border: 2px solid red;
+    width: 500px;
+    height: 200px;
+    background-color: azure;
+}
